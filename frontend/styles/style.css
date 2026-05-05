@@ -1,0 +1,31 @@
+/* Smart Diet Planner – global styles */
+
+/* Slightly softer background */
+[data-testid="stAppViewContainer"] {
+    background-color: #f8fafc;
+}
+
+/* Form submit button */
+[data-testid="stFormSubmitButton"] > button {
+    background-color: #16a34a;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    transition: background 0.2s;
+}
+
+[data-testid="stFormSubmitButton"] > button:hover {
+    background-color: #15803d;
+}
+
+/* Section headings */
+h2, h3 {
+    color: #1e293b;
+}
+
+/* Divider */
+hr {
+    border-color: #e2e8f0;
+}
